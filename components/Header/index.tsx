@@ -8,10 +8,10 @@ export default function Header() {
       <Link href="/">
         <Image
           src="/logo.svg"
-          alt="SIMPLE"
+          alt="MATSUBA BLOG"
           className={styles.logo}
-          width={348}
-          height={133}
+          width={211}
+          height={64}
           priority
         />
       </Link>
