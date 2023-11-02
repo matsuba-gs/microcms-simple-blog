@@ -1,6 +1,12 @@
+.body {
+  background-color: #F0F0EE;
+}
+
 .main {
   width: 720px;
+  max-width: 1048px;
   margin: 0 auto;
+  padding: 80px 24px;
 }
 
 @media (max-width: 640px) {

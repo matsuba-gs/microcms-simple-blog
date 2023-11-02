@@ -30,9 +30,9 @@ export default async function RootLayout({ children }: Props) {
   });
   return (
     <html lang="ja">
-      <body>
+      <body className={styles.body}>
         <Header />
-        <Nav tags={tags.contents} />
+        {/*<Nav tags={tags.contents} />*/}
         <main className={styles.main}>{children}</main>
         <Footer />
       </body>
