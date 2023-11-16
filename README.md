@@ -1,8 +1,8 @@
-# シンプルなブログ
+# GS BLOG
 
-![](public/img-cover.png)
-
-microCMS 公式のシンプルなブログのテンプレートです。
+Next.jsの学習のために、 microCMS 公式のテンプレート
+「[シンプルなブログ](https://templates.microcms.io/templates/detail/a530e59f-d66d-4b85-9ef5-4cf4288adb09)」
+から作成したブログです。
 
 ## 動作環境
 
