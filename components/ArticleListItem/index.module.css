@@ -1,15 +1,22 @@
 .list {
-  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: auto;
 }
 
 .link {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
 }
 
 .image {
-  width: 240px;
+  width: 100%;
   height: auto;
+  vertical-align: top;
+}
+
+.content {
+  padding: 10px;
 }
 
 .title {
@@ -18,10 +25,20 @@
   margin-bottom: 0.5rem;
 }
 
+.list:first-child {
+  grid-column: 1 / -1;
+}
+
+.list:first-child .link {
+  flex-direction: row;
+}
+
+.list:first-child .picture {
+  width: 60%;
+  height: auto;
+}
+
 @media (max-width: 640px) {
-  .link {
-    display: block;
-  }
   .image {
     width: 100%;
     height: auto;
@@ -31,4 +48,16 @@
   .title {
     font-size: 1.4rem;
   }
+
+  .list:first-child {
+    grid-column: auto;
+  }
+
+  .list:first-child .link {
+    flex-direction: column;
+  }
+
+  .list:first-child .picture {
+  width: 100%;
+}
 }

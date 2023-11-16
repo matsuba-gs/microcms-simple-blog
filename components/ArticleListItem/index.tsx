@@ -14,7 +14,7 @@ export default function ArticleListItem({ article }: Props) {
     <li className={styles.list}>
       <Link href={`/articles/${article.id}`} className={styles.link}>
         {article.thumbnail ? (
-          <picture>
+          <picture className={styles.picture}>
             <source
               type="image/webp"
               media="(max-width: 640px)"

@@ -3,8 +3,8 @@
 }
 
 .main {
-  width: 720px;
-  max-width: 1048px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 80px 24px;
 }

@@ -1,4 +1,5 @@
 import { Article } from '@/libs/microcms';
+import styles from './index.module.css';
 import ArticleListItem from '../ArticleListItem';
 
 type Props = {
@@ -13,7 +14,7 @@ export default function ArticleList({ articles }: Props) {
     return <p>記事がありません。</p>;
   }
   return (
-    <ul>
+    <ul className={styles.articleList}>
       {articles.map((article) => (
         <ArticleListItem key={article.id} article={article} />
       ))}
